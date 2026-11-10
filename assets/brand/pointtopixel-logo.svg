@@ -27,8 +27,8 @@
   <g transform="translate(-65 0)" clip-path="url(#letter-n)"><use href="#original-identity" xlink:href="#original-identity"/></g>
   <g transform="translate(-84 0)" clip-path="url(#letter-t)"><use href="#original-identity" xlink:href="#original-identity"/></g>
 
-  <g transform="translate(67 0)" clip-path="url(#letter-t)"><use href="#original-identity" xlink:href="#original-identity"/></g>
-  <g transform="translate(590 0)" clip-path="url(#letter-o)"><use href="#original-identity" xlink:href="#original-identity"/></g>
+  <g opacity=".72" transform="translate(565.3 177.4) scale(.62)" clip-path="url(#letter-t)"><use href="#original-identity" xlink:href="#original-identity"/></g>
+  <g opacity=".72" transform="translate(895.2 177.4) scale(.62)" clip-path="url(#letter-o)"><use href="#original-identity" xlink:href="#original-identity"/></g>
 
   <g transform="translate(76 0)" clip-path="url(#letter-p2)"><use href="#original-identity" xlink:href="#original-identity"/></g>
   <g transform="translate(54 0)" clip-path="url(#letter-i2)"><use href="#original-identity" xlink:href="#original-identity"/></g>
