@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://pointtopixel.com/assets/img/dark-waves-key-art.png">
   <link rel="canonical" href="https://pointtopixel.com/">
   <link rel="icon" href="/assets/brand/pointtopixel-identity-icon-black.png" type="image/png">
-  <link rel="stylesheet" href="/assets/css/pointtopixel-home.css?v=20261111-reference-lockup-2">
+  <link rel="stylesheet" href="/assets/css/pointtopixel-home.css?v=20261111-pixel-match-1">
   <link rel="stylesheet" href="/assets/css/pointtopixel-brand.css?v=20261110-brand-migration">
 </head>
 <body>
@@ -47,13 +47,27 @@
       <div class="hero-content">
         <p class="eyebrow reveal">Creative technology studio · Malmö, Sweden</p>
         <h1 class="sr-only" id="hero-title">Point to Pixel — Every Pixel Has a Point</h1>
-        <div class="hero-logo reveal reveal--logo" role="img" aria-label="Point to Pixel — Every Pixel Has a Point">
-          <img class="hero-logo__mark" src="/assets/brand/pointtopixel-identity-mark.png" alt="" aria-hidden="true">
-          <span class="hero-logo__type" aria-hidden="true">
-            <img class="hero-logo__wordmark" src="/assets/brand/pointtopixel-wordmark-trail.svg?v=20261111-reference-lockup-2" alt="">
-            <span class="hero-logo__tagline">Every Pixel Has a Point<span class="hero-logo__period">.</span></span>
-          </span>
-        </div>
+        <svg class="hero-logo reveal reveal--logo" viewBox="0 0 2098 640" role="img" aria-label="Point to Pixel — Every Pixel Has a Point">
+          <defs>
+            <mask id="point-to-pixel-mask" maskUnits="userSpaceOnUse">
+              <rect width="2098" height="640" fill="white"/>
+              <rect x="1282" y="370" width="166" height="174" fill="black"/>
+              <rect x="1880" y="570" width="70" height="70" fill="black"/>
+            </mask>
+          </defs>
+          <image href="/assets/brand/pointypixel-identity-horizontal.png" width="2098" height="640" mask="url(#point-to-pixel-mask)" aria-hidden="true"/>
+          <g fill="#ef0713" aria-hidden="true">
+            <rect x="1297" y="454" width="7" height="7" rx="3.5" opacity=".42"/>
+            <rect x="1315" y="454" width="12" height="7" rx="3.5" opacity=".60"/>
+            <rect x="1338" y="454" width="18" height="7" rx="3.5" opacity=".78"/>
+          </g>
+          <g fill="none" stroke="#ef0713" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M1368 458H1428"/>
+            <path d="M1412 442L1430 458L1412 474"/>
+          </g>
+          <text x="1362" y="423" text-anchor="middle" fill="#ef0713" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="800" letter-spacing="5" aria-hidden="true">TO</text>
+          <rect x="1850" y="604" width="12" height="12" fill="#ef0713" aria-hidden="true"/>
+        </svg>
         <p class="hero-statement reveal"><span class="hero-lead">We create</span> <span class="typed" data-typed-items="games,real-time worlds,spatial experiences,interactive stories"></span><noscript> games.</noscript></p>
         <div class="hero-actions reveal">
           <a class="button button--primary" href="#dark-waves">See current work</a>
