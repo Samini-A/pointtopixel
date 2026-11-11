@@ -223,26 +223,53 @@ a:focus-visible {
 }
 
 .hero-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: clamp(1rem, 2.75vw, 3rem);
-  width: min(96%, 84rem);
+  display: grid;
+  grid-template-columns: 32% 1fr;
+  align-items: end;
+  gap: 2.65%;
+  width: min(94%, 78rem);
   margin: clamp(2rem, 5vh, 4.5rem) auto clamp(1.5rem, 4vh, 3.5rem);
 }
 
 .hero-logo__mark {
-  flex: 0 0 clamp(10rem, 20vw, 19rem);
-  width: clamp(10rem, 20vw, 19rem);
+  display: block;
+  width: 100%;
   height: auto;
-  transform: scale(1.18);
+}
+
+.hero-logo__type {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  padding-bottom: 1.5%;
 }
 
 .hero-logo__wordmark {
-  flex: 1 1 auto;
-  width: min(100%, 62rem);
-  min-width: 0;
+  display: block;
+  width: 100%;
   height: auto;
+}
+
+.hero-logo__tagline {
+  display: block;
+  margin-top: clamp(.45rem, .9vw, .85rem);
+  color: var(--paper-soft);
+  font-size: clamp(.52rem, 1.25vw, 1.08rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: .47em;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.hero-logo__period {
+  color: var(--red);
+  font-size: 1.3em;
+  font-weight: 900;
+  letter-spacing: 0;
+  margin-left: .06em;
 }
 
 .hero-statement {
