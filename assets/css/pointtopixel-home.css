@@ -223,13 +223,25 @@ a:focus-visible {
 }
 
 .hero-logo {
-  display: block;
-  width: min(94%, 78rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 2.75vw, 3rem);
+  width: min(96%, 84rem);
   margin: clamp(2rem, 5vh, 4.5rem) auto clamp(1.5rem, 4vh, 3.5rem);
 }
 
-.hero-logo img {
-  width: 100%;
+.hero-logo__mark {
+  flex: 0 0 clamp(10rem, 20vw, 19rem);
+  width: clamp(10rem, 20vw, 19rem);
+  height: auto;
+  transform: scale(1.18);
+}
+
+.hero-logo__wordmark {
+  flex: 1 1 auto;
+  width: min(100%, 62rem);
+  min-width: 0;
   height: auto;
 }
 
